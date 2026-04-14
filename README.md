@@ -1,39 +1,43 @@
-# Sistema de Gestión Académica
+# 📚 Sistema de Gestión Académica
 
-Sistema web para la gestión de estudiantes, docentes, materias, cursos, inscripciones, notas, asistencias, boletín académico y predicción de riesgo.
+Sistema web completo para la gestión de estudiantes, docentes, materias, cursos, inscripciones, notas y asistencia.
 
-## Tecnologías
-- React
-- Bootstrap
-- Spring Boot
-- JWT
-- MySQL
+## 🚀 Tecnologías
 
-## Roles
-- ADMIN
-- DOCENTE
-- ESTUDIANTE
+- Frontend: React + Bootstrap
+- Backend: Spring Boot + JWT
+- Base de datos: MySQL
 
-## Funcionalidades
-- Inicio de sesión con JWT
+## 🔐 Roles del sistema
+
+- ADMIN → acceso total
+- DOCENTE → gestiona sus materias, estudiantes, notas y asistencia
+- ESTUDIANTE → consulta su boletín académico
+
+## ⚙️ Funcionalidades
+
+- Autenticación con JWT
 - Cambio obligatorio de contraseña
-- Gestión de estudiantes
-- Gestión de docentes
-- Gestión de materias
-- Gestión de cursos
-- Gestión de inscripciones
-- Gestión de notas
-- Gestión de asistencias
+- Control de acceso por roles
+- Gestión de:
+  - Estudiantes
+  - Docentes
+  - Materias
+  - Cursos
+  - Inscripciones
+  - Notas
+  - Asistencias
 - Boletín académico
 - Predicción de riesgo académico
 
-## Ejecución del proyecto
+## 📸 Capturas
+
+*(Agrega imágenes aquí luego)*
+
+## ▶️ Ejecución del proyecto
 
 ### Backend
-Entrar a la carpeta backend y ejecutar Spring Boot.
 
-### Frontend
-Entrar a la carpeta frontend e instalar dependencias con npm.
-
-## Autor
-Samir Julio
+```bash
+cd backend
+mvn spring-boot:run
