@@ -1,0 +1,66 @@
+@import-normalize;
+
+/* =========================
+   RESET / BASE
+========================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f7fb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* =========================
+   ELEMENTOS GENERALES
+========================= */
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* =========================
+   CLASES GLOBALES
+========================= */
+
+.page-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.custom-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-list-item {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #f9fafb;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
