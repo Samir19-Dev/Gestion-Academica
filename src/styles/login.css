@@ -1,0 +1,30 @@
+/* =========================
+   LOGIN
+========================= */
+
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .app-box {
+    max-width: 700px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-page .app-box {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  
+  .app-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
